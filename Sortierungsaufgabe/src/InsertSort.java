@@ -1,6 +1,5 @@
-package ch.ffhs.dua.sort;
 
-public class InsertSort 
+public class InsertSort
 {
 	/**
 	 * Sortiert ein Array durch Einfügen

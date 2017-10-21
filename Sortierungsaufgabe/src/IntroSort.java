@@ -1,8 +1,4 @@
-package ch.ffhs.dua.sort;
-
-import static ch.ffhs.dua.sort.QuickSort.partition;
-
-public class IntroSort 
+public class IntroSort
 {
 	/**
 	 * Sortiert ein Array der Länge n mit IntroSort.
@@ -31,7 +27,7 @@ public class IntroSort
 			HeapSort.sort(array, start, end);
 		}
 		int pivot = QuickSort.findPivot(array, start, end);
-		pivot = partition(array, start, end, pivot);
+		pivot = QuickSort.partition(array, start, end, pivot);
 		sort(array, start, pivot - 1, maxDepth - 1);
 		sort(array, pivot + 1, end, maxDepth - 1);
 	}

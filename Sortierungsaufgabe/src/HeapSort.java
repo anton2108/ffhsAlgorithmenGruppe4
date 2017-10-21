@@ -1,6 +1,4 @@
-package ch.ffhs.dua.sort;
-
-public class HeapSort 
+public class HeapSort
 {
 	/**
 	 * Sortiert ein Array mit Heapsort.
