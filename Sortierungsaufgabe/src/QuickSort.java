@@ -1,4 +1,6 @@
-public class QuickSort
+package ch.ffhs.dua.sort;
+
+public class QuickSort 
 {
 	
 	/**
@@ -18,7 +20,7 @@ public class QuickSort
 	 */
 	public static void sort(int[] array, int start, int end)
 	{
-		// TODO
+		// TODO   Hallo
 	}
 	
 	/** 
